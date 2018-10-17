@@ -1,0 +1,14 @@
+<MinhaTela@BoxLayout>:
+    orientation: "vertical"
+
+    Button:
+        text: "self"
+        on_press: self.funcSelf() # a classe root faz o bind entre a instancia de MinhaTela com a função da Classe Minha Tela
+    Button:
+        text: "root"
+        on_press: root.funcRoot()
+    Button:
+        text: "app"
+        on_press: app.funcApp()
+
+MinhaTela:
